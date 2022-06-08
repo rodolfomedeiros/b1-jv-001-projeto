@@ -1,5 +1,7 @@
 # b1-jv-001-projeto - Lets Code
 
+Projeto do 1º módulo do curso realizado pela Lets Code.
+
 ### Clonar o Projeto
 
 ```git
