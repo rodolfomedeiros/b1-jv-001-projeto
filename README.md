@@ -17,7 +17,7 @@ Esta config deve ser realizada dentro do repositório do projeto.
 
 ```git
 git config --local user.name "Seu nome abreviado"
-git config --local user.name "Seu email próprio"
+git config --local user.email "Seu email próprio"
 ```
 
 ### Github
