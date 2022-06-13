@@ -15,11 +15,7 @@ abstract public class Conta {
 
     public void sacar(double valor) throws IllegalArgumentException{
         if(this.saldo >= valor){
-            if(cliente.getClass() == PessoaJuridica.class){
-                this.saldo -= (valor * 1.05);
-            }else{
                 this.saldo -= valor;
-            }
         }else{
             throw new IllegalArgumentException("Valor inválido!");
         }
