@@ -1,7 +1,5 @@
 package br.bb;
 
-import java.lang.invoke.MethodType;
-
 abstract public class Conta {
     // Implementar:
     // Sacar - PJ tem taxa de 0,5% por saque
