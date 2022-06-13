@@ -15,7 +15,7 @@ abstract public class Conta {
 
     public void sacar(double valor) throws IllegalArgumentException{
         if(this.saldo >= valor){
-            if(cliente.getTipoPessoa() == Cliente.TipoPessoa.PJ){
+            if(cliente.getClass() == PessoaJuridica.class){
                 this.saldo -= (valor * 1.05);
             }else{
                 this.saldo -= valor;
