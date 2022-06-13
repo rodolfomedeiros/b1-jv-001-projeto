@@ -1,12 +1,12 @@
 package br.bb;
 
-abstract public class Conta {
+public abstract class Conta {
     // Implementar:
     // Sacar - PJ tem taxa de 0,5% por saque
     // Tranferir - PJ tem taxa de 0,5% por
 
-    private Cliente cliente;
-    private double saldo;
+    protected Cliente cliente;
+    protected double saldo;
 
     public Conta(Cliente cliente) {
         this.cliente = cliente;
@@ -38,13 +38,18 @@ abstract public class Conta {
         }
     }
 
-    ;
+    public void rende(){}
 
     public double getSaldo() {
         return this.saldo;
     }
 
-    private void setSaldo(double saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
 }
