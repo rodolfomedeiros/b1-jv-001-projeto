@@ -2,5 +2,17 @@ package br.bb;
 
 public class PessoaFisica extends Cliente {
 
-    private String cpf; // Validar o formato do cpf antes de criar o cliente
+    private String cpf;
+
+    PessoaFisica(String nome, String cpf) {
+        super(nome);
+        this.cpf = cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+    public String getCpf(String cpf) {
+        return this.cpf;
+    }
 }
