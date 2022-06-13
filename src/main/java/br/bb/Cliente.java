@@ -1,14 +1,15 @@
 package br.bb;
 
+import java.time.LocalDate;
 import java.util.Date;
 
-abstract public class Cliente {
+public abstract class Cliente {
     private String nome;
-    private Date createdAt;
+    private LocalDate createdAt;
 
     Cliente(String nome) {
         this.nome = nome;
-        this.createdAt = new Date();
+        this.createdAt = LocalDate.now();
     }
 
     public void setNome(String nome) {
@@ -18,7 +19,7 @@ abstract public class Cliente {
         return this.nome;
     }
 
-    public Date getCreatedAt() {
+    public LocalDate getCreatedAt() {
         return this.createdAt;
     }
 }
