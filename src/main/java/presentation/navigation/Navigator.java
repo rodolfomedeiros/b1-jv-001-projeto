@@ -77,6 +77,7 @@ public class Navigator {
         return this.frameStack.empty();
     }
 
+    @SuppressWarnings("resource")
     public void renderCurrentFrame() {
         try {
             clearFrame();

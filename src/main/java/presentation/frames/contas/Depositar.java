@@ -1,15 +1,16 @@
 package presentation.frames.contas;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
 
 import presentation.navigation.Frame;
 import presentation.navigation.Navigator;
 
 public class Depositar extends Frame {
     private BigDecimal valor;
-    
-    public Depositar(String key, Navigator navigator) {
-        super(key, navigator);
+
+    public Depositar(String key, Navigator navigator, HashMap<String, Object> params) {
+        super(key, navigator, params);
     }
 
     @Override

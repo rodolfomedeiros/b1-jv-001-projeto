@@ -1,27 +1,18 @@
 package presentation.frames;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import presentation.navigation.Frame;
 import presentation.navigation.Navigator;
 
 public class Clientes extends Frame {
-    private List<String> options = new ArrayList<>();
-
     public Clientes(String key, Navigator navigator) {
         super(key, navigator);
     }
 
     @Override
     public void render() {
-        options.add("1. Cadastrar cliente");
-        options.add("2. Listar clientes");
-        options.add("3. Voltar");
-        
-        for (String option : options) {
-            System.out.println(option);
-        }
+        System.out.println("1. Cadastrar cliente");
+        System.out.println("2. Listar clientes");
+        System.out.println("3. Voltar");
         System.out.println();
 
         System.out.print("Digite a opção desejada: ");

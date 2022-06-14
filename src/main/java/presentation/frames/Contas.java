@@ -1,28 +1,19 @@
 package presentation.frames;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import presentation.navigation.Frame;
 import presentation.navigation.Navigator;
 
 public class Contas extends Frame {
-    private List<String> options = new ArrayList<>();
-
     public Contas(String key, Navigator navigator) {
         super(key, navigator);
     }
 
     @Override
     public void render() {
-        options.add("1. Abrir conta");
-        options.add("2. Listar contas");
-        options.add("3. Acessar conta");
-        options.add("4. Voltar");
-        
-        for (String option : options) {
-            System.out.println(option);
-        }
+        System.out.println("1. Abrir conta");
+        System.out.println("2. Listar contas");
+        System.out.println("3. Acessar conta");
+        System.out.println("4. Voltar");
         System.out.println();
 
         System.out.print("Digite a opção desejada: ");

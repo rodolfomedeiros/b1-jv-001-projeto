@@ -1,6 +1,7 @@
 package presentation.frames.contas;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
 
 import presentation.navigation.Frame;
 import presentation.navigation.Navigator;
@@ -8,8 +9,8 @@ import presentation.navigation.Navigator;
 public class Sacar extends Frame {
     private BigDecimal valor;
     
-    public Sacar(String key, Navigator navigator) {
-        super(key, navigator);
+    public Sacar(String key, Navigator navigator, HashMap<String, Object> params) {
+        super(key, navigator, params);
     }
 
     @Override

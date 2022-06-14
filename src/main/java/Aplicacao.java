@@ -12,8 +12,8 @@ import presentation.frames.contas.AbrirContaCorrente;
 import presentation.frames.contas.AbrirContaInvestimento;
 import presentation.frames.contas.AbrirContaPoupanca;
 import presentation.frames.contas.AcessarConta;
-import presentation.frames.contas.Conta;
 import presentation.frames.contas.Depositar;
+import presentation.frames.contas.DetalhesConta;
 import presentation.frames.contas.ListarContas;
 import presentation.frames.contas.Sacar;
 import presentation.frames.contas.Transferir;
@@ -38,7 +38,7 @@ public class Aplicacao {
     navigator.addFrame("abrir-conta-investimento", AbrirContaInvestimento.class);
     navigator.addFrame("acessar-conta", AcessarConta.class);
     navigator.addFrame("listar-contas", ListarContas.class);
-    navigator.addFrame("conta", Conta.class);
+    navigator.addFrame("conta", DetalhesConta.class);
     navigator.addFrame("transferir", Transferir.class);
     navigator.addFrame("sacar", Sacar.class);
     navigator.addFrame("depositar", Depositar.class);

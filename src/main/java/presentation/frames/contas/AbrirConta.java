@@ -1,13 +1,9 @@
 package presentation.frames.contas;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import presentation.navigation.Frame;
 import presentation.navigation.Navigator;
 
 public class AbrirConta extends Frame {
-    private List<String> options = new ArrayList<>();
 
     public AbrirConta(String key, Navigator navigator) {
         super(key, navigator);
@@ -15,14 +11,10 @@ public class AbrirConta extends Frame {
 
     @Override
     public void render() {
-        options.add("1. Abrir conta poupança");
-        options.add("2. Abrir conta corrente");
-        options.add("3. Abrir conta investimento");
-        options.add("4. Voltar");
-        
-        for (String option : options) {
-            System.out.println(option);
-        }
+        System.out.println("1. Abrir conta poupança");
+        System.out.println("2. Abrir conta corrente");
+        System.out.println("3. Abrir conta investimento");
+        System.out.println("4. Voltar");
         System.out.println();
 
         System.out.print("Digite a opção desejada: ");
