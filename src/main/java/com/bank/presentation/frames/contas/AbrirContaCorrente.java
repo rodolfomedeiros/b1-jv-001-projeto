@@ -37,6 +37,7 @@ public class AbrirContaCorrente extends Frame {
                 throw new Exception("Opcão inválida!!!!");
         }
 
+        System.out.println();
         System.out.println("Conta corrente aberta com sucesso!");
         System.out.println("Aperte ENTER para continuar...");
 
@@ -60,6 +61,8 @@ public class AbrirContaCorrente extends Frame {
         ContaCorrente conta = new ContaCorrente(cliente);
 
         RepositorioContas.getInstancia().salvar(conta);
+
+        System.out.println("Codigo da conta: " + conta.getCodigo());
     }
 
     private void abrirContaCorrenteParaPessoaJuridica() throws Exception {
@@ -76,5 +79,7 @@ public class AbrirContaCorrente extends Frame {
         ContaCorrente conta = new ContaCorrente(cliente);
 
         RepositorioContas.getInstancia().salvar(conta);
+
+        System.out.println("Codigo da conta: " + conta.getCodigo());
     }
 }

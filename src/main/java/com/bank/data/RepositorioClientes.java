@@ -43,7 +43,6 @@ public class RepositorioClientes {
         Optional<Cliente> cliente =  this.data.values().stream()
             .filter(p -> p.isPessoaFisica())
             .filter(p -> {
-                System.out.println(p);
                 return ((PessoaFisica)p).getCpf().equals(cpf);
             })
             .findFirst();

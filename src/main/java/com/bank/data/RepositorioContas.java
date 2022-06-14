@@ -37,4 +37,16 @@ public class RepositorioContas {
         return new ArrayList<>(this.data.values());
     }
 
+    public Conta obterContaPorCodigo(String codigo) {
+        Optional<Conta> conta =  this.data.values().stream()
+            .filter(c -> c.getCodigo() == codigo)
+            .findFirst();
+        
+        if(conta.isPresent()) {
+            return (Conta)conta.get();
+        } else {
+            return null;
+        }
+    }
+
 }

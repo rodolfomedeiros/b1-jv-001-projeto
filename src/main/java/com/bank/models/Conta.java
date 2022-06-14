@@ -7,12 +7,14 @@ public abstract class Conta extends Entity {
     // Sacar - PJ tem taxa de 0,5% por saque
     // Tranferir - PJ tem taxa de 0,5% por
 
+    protected String codigo;
     protected Cliente cliente;
     protected double saldo;
 
     public Conta(Cliente cliente) {
         this.cliente = cliente;
         this.saldo = 0;
+        this.codigo = CodigoConta.getInstancia().getProximoCodigo();
     }
 
     public void sacar(double valor) throws IllegalArgumentException {
@@ -58,4 +60,7 @@ public abstract class Conta extends Entity {
         return cliente;
     }
 
+    public String getCodigo() {
+        return codigo;
+    }
 }
