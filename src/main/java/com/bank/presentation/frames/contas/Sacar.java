@@ -1,6 +1,5 @@
 package com.bank.presentation.frames.contas;
 
-import java.math.BigDecimal;
 import java.util.HashMap;
 
 import com.bank.models.Conta;
@@ -18,6 +17,7 @@ public class Sacar extends Frame {
     public void render() throws Exception {
         printFrameTitle("SACAR");
 
+        // Acessa a conta recebida como parâmetro no frame "Acessar Conta"
         Conta conta = (Conta)params.get("conta");
 
         System.out.printf("Saldo atual: R$ %.2f\n", conta.getSaldo());

@@ -17,6 +17,7 @@ public class Depositar extends Frame {
     public void render() {
         printFrameTitle("DEPOSITAR");
 
+        // Acessa a conta recebida como parâmetro no frame "Acessar Conta"
         Conta conta = (Conta)params.get("conta");
 
         System.out.printf("Saldo atual: R$ %.2f\n", conta.getSaldo());

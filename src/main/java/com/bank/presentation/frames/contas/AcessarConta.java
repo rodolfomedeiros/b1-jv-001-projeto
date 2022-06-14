@@ -3,10 +3,7 @@ package com.bank.presentation.frames.contas;
 import java.util.HashMap;
 
 import com.bank.data.RepositorioContas;
-import com.bank.models.Cliente;
 import com.bank.models.Conta;
-import com.bank.models.ContaCorrente;
-import com.bank.models.PessoaFisica;
 import com.bank.presentation.navigation.Frame;
 import com.bank.presentation.navigation.Navigator;
 

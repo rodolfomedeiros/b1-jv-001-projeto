@@ -1,13 +1,13 @@
 package com.bank.presentation.frames.contas;
 
-import java.math.BigDecimal;
 import java.util.HashMap;
 
+import com.bank.models.Conta;
 import com.bank.presentation.navigation.Frame;
 import com.bank.presentation.navigation.Navigator;
 
 public class Investir extends Frame {
-    private BigDecimal valor;
+    private Double valor;
 
     public Investir(String key, Navigator navigator, HashMap<String, Object> params) {
         super(key, navigator, params);
@@ -16,8 +16,12 @@ public class Investir extends Frame {
     @Override
     public void render() throws Exception {
         printFrameTitle("SACAR");
+
+        // Acessa a conta recebida como parâmetro no frame "Acessar Conta"
+        Conta conta = (Conta)params.get("conta");
+
         System.out.print("Digite o valor a ser investido: ");
-        valor = scanner.nextBigDecimal();
+        valor = scanner.nextDouble();
         scanner.nextLine();
 
         // TODO: implementar o lógica de investimento
