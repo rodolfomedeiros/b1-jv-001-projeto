@@ -7,11 +7,12 @@
     <list default="true" id="5d5b06b6-ab1c-4970-a767-92a6a13f2a98" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/ContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/ContaInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/ContaPoupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/PessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/PessoaJuridica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/ListarClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/ListarClientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/RepositorioClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/RepositorioClientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/AbrirContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/AbrirContaCorrente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/F9840137/appBank2/b1-jv-001-projeto"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/F9840137/appBank2/b1-jv-001-projeto&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aplicacao" />
-      <module name="appBank2" />
+      <module name="b1-jv-001-projeto" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

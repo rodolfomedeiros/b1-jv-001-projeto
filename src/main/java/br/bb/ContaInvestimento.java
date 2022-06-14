@@ -14,7 +14,7 @@ public class ContaInvestimento extends ContaComRendimento{
     @Override
     public void rende(){
         setSaldo(getSaldo()*getTaxaRendimento());
-        if(cliente instanceof PessoaJuridica){
+        if(cliente.isPessoaJuridica()){
             setSaldo(getSaldo()*PJ_RENDIMENTO_EXTRA);
         }
     }

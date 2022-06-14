@@ -1,8 +1,6 @@
 package br.bb;
 
-public class ContaCorrente extends Conta{
-    // Implementar:
-    // Abrir conta
+public class ContaCorrente extends Conta {
 
     public ContaCorrente(Cliente cliente){
         super(cliente);
