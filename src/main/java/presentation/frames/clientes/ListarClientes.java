@@ -11,7 +11,15 @@ public class ListarClientes extends Frame {
 
     @Override
     public void render() {
-        // TODO Auto-generated method stub
-        
+        printFrameTitle("LISTAR CLIENTES");
+
+        // TODO: implementar a listagem de clientes
+
+        System.out.println("Aperte ENTER para continuar...");
+
+        if(this.scanner.hasNextLine()) {
+            this.scanner.nextLine();
+            navigator.goBack();
+        }
     }
 }

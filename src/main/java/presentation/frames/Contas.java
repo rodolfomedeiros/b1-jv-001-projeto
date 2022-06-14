@@ -10,6 +10,7 @@ public class Contas extends Frame {
 
     @Override
     public void render() {
+        printFrameTitle("CONTAS");
         System.out.println("1. Abrir conta");
         System.out.println("2. Listar contas");
         System.out.println("3. Acessar conta");

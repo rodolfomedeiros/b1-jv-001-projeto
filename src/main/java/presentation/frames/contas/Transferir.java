@@ -16,6 +16,8 @@ public class Transferir extends Frame {
 
     @Override
     public void render() {
+        printFrameTitle("TRANSFERIR");
+        
         System.out.print("Digite o valor a ser transferido: ");
         valor = scanner.nextBigDecimal();
         scanner.nextLine();

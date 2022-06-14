@@ -28,5 +28,12 @@ public abstract class Frame {
         return params;
     }
 
+    public void printFrameTitle(String title) {
+        System.out.println("----------------------------------------------------");
+        System.out.println("-- " + title);
+        System.out.println("----------------------------------------------------");
+        System.out.println();
+    }
+
     public abstract void render() throws Exception;
 }

@@ -10,6 +10,7 @@ public class Home extends Frame {
 
     @Override
     public void render() throws Exception {
+        printFrameTitle("INÍCIO");
         System.out.println("1. Clientes");
         System.out.println("2. Contas");
         System.out.println("3. Encerrar");

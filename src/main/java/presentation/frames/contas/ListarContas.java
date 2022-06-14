@@ -11,7 +11,15 @@ public class ListarContas extends Frame {
 
     @Override
     public void render() {
-        // TODO Auto-generated method stub
+        printFrameTitle("LISTAR CONTAS");
         
+        // TODO: implementar a listagem de contas
+
+        System.out.println("Aperte ENTER para continuar...");
+
+        if(this.scanner.hasNextLine()) {
+            this.scanner.nextLine();
+            navigator.goBack();
+        }
     }
 }

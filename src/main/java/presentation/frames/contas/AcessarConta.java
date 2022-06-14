@@ -17,7 +17,7 @@ public class AcessarConta extends Frame {
 
     @Override
     public void render() {
-        System.out.println("-- ACESSAR CONTA --");
+        printFrameTitle("ACESSAR CONTA");
         System.out.print("Digite o código da conta (deixe vazio para voltar): ");
 
         codigoConta = this.scanner.nextLine();
@@ -36,8 +36,9 @@ public class AcessarConta extends Frame {
         // cria hash map para armazenar parametros de um frame
         HashMap<String, Object> params = new HashMap<>();
         params.put("conta", conta);
-        // navega para o frame de conta injetando os parametros
-        this.navigator.navigate("conta", params);
+
+        // navega para o frame "detalhes-conta" injetando os parametros
+        this.navigator.navigate("detalhes-conta", params);
     }
     
 }

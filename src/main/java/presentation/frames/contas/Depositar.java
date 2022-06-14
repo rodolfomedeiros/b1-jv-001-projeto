@@ -15,6 +15,7 @@ public class Depositar extends Frame {
 
     @Override
     public void render() {
+        printFrameTitle("DEPOSITAR");
         System.out.print("Digite o valor a ser depositado: ");
         valor = scanner.nextBigDecimal();
         scanner.nextLine();

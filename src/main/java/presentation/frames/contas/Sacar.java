@@ -15,6 +15,7 @@ public class Sacar extends Frame {
 
     @Override
     public void render() {
+        printFrameTitle("SACAR");
         System.out.print("Digite o valor a ser sacado: ");
         valor = scanner.nextBigDecimal();
         scanner.nextLine();

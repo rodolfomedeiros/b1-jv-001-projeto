@@ -13,13 +13,22 @@ public class CadastrarClientePF extends Frame {
 
     @Override
     public void render() {
-        System.out.println("-- CADASTRAR CLIENTE PJ --");
+        printFrameTitle("CADASTRAR CLIENTE PESSOA FÍSICA");
+        
         System.out.println();
         System.out.print("Nome: ");
         nome = scanner.nextLine();
         System.out.print("CPF: ");
         cpf = scanner.nextLine();
 
+        // TODO: implementar a criação de um cliente pessoa física
 
+        System.out.println("Cliente cadastrado com sucesso!");
+        System.out.println("Aperte ENTER para continuar...");
+
+        if(this.scanner.hasNextLine()) {
+            this.scanner.nextLine();
+            navigator.goBack();
+        }
     }
 }

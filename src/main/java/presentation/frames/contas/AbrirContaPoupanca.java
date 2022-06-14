@@ -11,7 +11,16 @@ public class AbrirContaPoupanca extends Frame {
 
     @Override
     public void render() {
-        // TODO Auto-generated method stub
+        printFrameTitle("ABRIR CONTA POUPANÇA");
         
+        // TODO: implementar abertura de conta poupança
+
+        System.out.println("Conta poupança aberta com sucesso!");
+        System.out.println("Aperte ENTER para continuar...");
+
+        if(this.scanner.hasNextLine()) {
+            this.scanner.nextLine();
+            navigator.goBack();
+        }
     }
 }

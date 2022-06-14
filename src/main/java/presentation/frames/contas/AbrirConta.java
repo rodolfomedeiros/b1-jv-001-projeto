@@ -11,6 +11,7 @@ public class AbrirConta extends Frame {
 
     @Override
     public void render() {
+        printFrameTitle("ABRIR CONTA");
         System.out.println("1. Abrir conta poupança");
         System.out.println("2. Abrir conta corrente");
         System.out.println("3. Abrir conta investimento");

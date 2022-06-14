@@ -38,7 +38,7 @@ public class Aplicacao {
     navigator.addFrame("abrir-conta-investimento", AbrirContaInvestimento.class);
     navigator.addFrame("acessar-conta", AcessarConta.class);
     navigator.addFrame("listar-contas", ListarContas.class);
-    navigator.addFrame("conta", DetalhesConta.class);
+    navigator.addFrame("detalhes-conta", DetalhesConta.class);
     navigator.addFrame("transferir", Transferir.class);
     navigator.addFrame("sacar", Sacar.class);
     navigator.addFrame("depositar", Depositar.class);

@@ -14,9 +14,9 @@ public class DetalhesConta extends Frame {
 
     @Override
     public void render() {
+        printFrameTitle("DETALHES DA CONTA");
+        
         Conta conta = (Conta)this.params.get("conta");
-
-        System.out.println("-- CONTA --");
         System.out.println("Codigo da conta: 000001");
         System.out.println("Nome do cliente: " + conta.getCliente().getNome());
         System.out.println();

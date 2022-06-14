@@ -10,6 +10,8 @@ public class CadastrarCliente extends Frame {
 
     @Override
     public void render() {
+        printFrameTitle("CADASTRAR CLIENTE");
+        
         System.out.println("1. Cadastrar cliente PF");
         System.out.println("2. Cadastrar cliente PJ");
         System.out.println("3. Voltar");
