@@ -1,5 +1,9 @@
 package com.bank.presentation.frames.contas;
 
+import java.util.List;
+
+import com.bank.data.RepositorioContas;
+import com.bank.models.Conta;
 import com.bank.presentation.navigation.Frame;
 import com.bank.presentation.navigation.Navigator;
 
@@ -13,7 +17,14 @@ public class ListarContas extends Frame {
     public void render() {
         printFrameTitle("LISTAR CONTAS");
         
-        // TODO: implementar a listagem de contas
+        List<Conta> contas = RepositorioContas.getInstancia().listarContas();
+
+        contas.forEach(conta -> {
+            System.out.println("-----------------------------------------");
+            System.out.println("-- Cliente: " + conta.getCliente().getNome());
+            System.out.println("-- Código da conta: " + conta.getCodigo());
+            System.out.println("-----------------------------------------");
+        });
 
         System.out.println("Aperte ENTER para continuar...");
 

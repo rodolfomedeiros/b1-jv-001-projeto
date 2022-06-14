@@ -39,7 +39,7 @@ public class RepositorioContas {
 
     public Conta obterContaPorCodigo(String codigo) {
         Optional<Conta> conta =  this.data.values().stream()
-            .filter(c -> c.getCodigo() == codigo)
+            .filter(c -> c.getCodigo().equals(codigo))
             .findFirst();
         
         if(conta.isPresent()) {
