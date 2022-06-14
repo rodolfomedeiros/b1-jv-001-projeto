@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d5b06b6-ab1c-4970-a767-92a6a13f2a98" name="Changes" comment="refactor: organiza diretórios.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaInvestimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/ListarContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/ListarContas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

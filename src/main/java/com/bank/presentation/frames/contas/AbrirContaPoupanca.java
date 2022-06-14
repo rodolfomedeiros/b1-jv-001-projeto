@@ -15,13 +15,17 @@ public class AbrirContaPoupanca extends Frame {
     }
 
     @Override
-    public void render() {
+    public void render() throws Exception{
         printFrameTitle("ABRIR CONTA POUPANÇA");
 
         System.out.println("Digite o CPF:");
         String cpf = this.scanner.nextLine();
 
         PessoaFisica cliente = RepositorioClientes.getInstancia().obterPessoaFisica(cpf);
+
+        if(cliente == null) {
+            throw new Exception("Cliente não encontrado!!!!");
+        }
 
         Conta conta = new ContaPoupanca(cliente);
 
