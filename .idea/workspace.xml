@@ -4,40 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d5b06b6-ab1c-4970-a767-92a6a13f2a98" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/ContaComRendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaComRendimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/ContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/PessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/PessoaJuridica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/TipoPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/TipoPessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/data/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/RepositorioClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/data/RepositorioClientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/RepositorioContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/data/RepositorioContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/Contas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/Contas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/clientes/CadastrarCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/clientes/CadastrarClientePF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/clientes/CadastrarClientePJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/ListarClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/clientes/ListarClientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/AbrirConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/AbrirContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/AbrirContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/AbrirContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/AcessarConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AcessarConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/Depositar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/Depositar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/DetalhesConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/DetalhesConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/Investir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/Investir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/ListarContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/ListarContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/Sacar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/Sacar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/contas/Transferir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/Transferir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/navigation/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/navigation/Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/navigation/Navigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/navigation/Navigator.java" afterDir="false" />
+    <list default="true" id="5d5b06b6-ab1c-4970-a767-92a6a13f2a98" name="Changes" comment="refactor: organiza diretórios.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaPoupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: organiza diretórios." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: organiza diretórios." />
   </component>
 </project>

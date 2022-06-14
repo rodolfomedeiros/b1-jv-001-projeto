@@ -1,5 +1,6 @@
 package com.bank.presentation.frames.contas;
 
+import com.bank.models.Conta;
 import com.bank.models.ContaCorrente;
 import com.bank.models.PessoaFisica;
 import com.bank.models.PessoaJuridica;
@@ -57,7 +58,7 @@ public class AbrirContaCorrente extends Frame {
             throw new Exception("Cliente não encontrado!!!!");
         }
 
-        ContaCorrente conta = new ContaCorrente(cliente);
+        Conta conta = new ContaCorrente(cliente);
 
         RepositorioContas.getInstancia().salvar(conta);
     }
@@ -73,7 +74,7 @@ public class AbrirContaCorrente extends Frame {
             throw new Exception("Cliente não encontrado!!!!");
         }
 
-        ContaCorrente conta = new ContaCorrente(cliente);
+        Conta conta = new ContaCorrente(cliente);
 
         RepositorioContas.getInstancia().salvar(conta);
     }
