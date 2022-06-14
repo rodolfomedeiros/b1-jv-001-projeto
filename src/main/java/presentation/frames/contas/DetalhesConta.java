@@ -24,7 +24,8 @@ public class DetalhesConta extends Frame {
         System.out.println("1. Saque");
         System.out.println("2. Depósito");
         System.out.println("3. Transferência");
-        System.out.println("4. Voltar");
+        System.out.println("4. Investir");
+        System.out.println("5. Voltar");
 
         System.out.println();
         System.out.print("Digite a opção desejada: ");
@@ -43,6 +44,9 @@ public class DetalhesConta extends Frame {
                 this.navigator.navigate("transferir", this.params);
                 break;
             case 4:
+                this.navigator.navigate("investir", this.params);
+                break;
+            case 5:
                 this.navigator.goBack();
                 break;
             default:
