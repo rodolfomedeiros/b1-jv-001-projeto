@@ -1,0 +1,20 @@
+package com.bank.models;
+
+public class PessoaFisica extends Cliente {
+
+    private String cpf;
+
+    public PessoaFisica(String nome, String cpf) {
+        super(nome);
+        this.cpf = cpf;
+        this.tipo = TipoPessoa.PESSOA_FISICA;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getCpf() {
+        return this.cpf;
+    }
+}
