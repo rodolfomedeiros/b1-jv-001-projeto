@@ -23,8 +23,14 @@ public class ListarClientes extends Frame {
 
         listaClientes.forEach(cliente -> {
 
-            System.out.println(cliente.getId());
+            if(cliente.isPessoaFisica()){
+                displayPessoaFisica((PessoaFisica) cliente);
+            }else {
+                displayPessoaJuridica((PessoaJuridica) cliente);
+            }
+
         });
+        //printFrameTitle("-----------------------");
 
         // TODO: implementar a listagem de clientes
 
@@ -35,4 +41,18 @@ public class ListarClientes extends Frame {
             navigator.goBack();
         }
     }
+
+    private void displayPessoaFisica(PessoaFisica pessoaFisica){
+        System.out.println("Cliente: "+pessoaFisica.getNome());
+        System.out.println("CPF: "+pessoaFisica.getCpf());
+        System.out.println("-------------------------");
+    }
+
+    private void displayPessoaJuridica(PessoaJuridica pessoaJuridica){
+        System.out.println("Cliente: "+pessoaJuridica.getNome());
+        System.out.println("CNPJ: "+pessoaJuridica.getCnpj());
+        System.out.println("-------------------------");
+    }
+
+
 }

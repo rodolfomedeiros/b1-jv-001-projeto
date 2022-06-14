@@ -7,7 +7,7 @@
     <list default="true" id="5d5b06b6-ab1c-4970-a767-92a6a13f2a98" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/PessoaFisica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/bb/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/bb/PessoaJuridica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/frames/clientes/CadastrarClientePJ.java" afterDir="false" />
@@ -22,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>

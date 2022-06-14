@@ -26,7 +26,7 @@ public class CadastrarClientePJ extends Frame {
 
         System.out.print("CNPJ: ");
         cnpj = scanner.nextLine();
-        pj.setNome(cnpj);
+        pj.setCnpj(cnpj);
 
         RepositorioClientes.getInstancia().salvar(pj);
 

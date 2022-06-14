@@ -26,7 +26,7 @@ public class CadastrarClientePF extends Frame {
 
         System.out.print("CPF: ");
         cpf = scanner.nextLine();
-        pf.getCpf(cpf);
+        pf.setCpf(cpf);
 
         RepositorioClientes.getInstancia().salvar(pf);
 

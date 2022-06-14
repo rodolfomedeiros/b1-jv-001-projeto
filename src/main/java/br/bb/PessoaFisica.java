@@ -7,13 +7,14 @@ public class PessoaFisica extends Cliente {
     public PessoaFisica(String nome, String cpf) {
         super(nome);
         this.cpf = cpf;
+        this.tipo = TipoPessoa.PESSOA_FISICA;
     }
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    public String getCpf(String cpf) {
+    public String getCpf() {
         return this.cpf;
     }
 }
