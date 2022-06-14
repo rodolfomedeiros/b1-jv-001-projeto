@@ -12,12 +12,6 @@ public class AcessarConta extends Frame {
     }
 
     @Override
-    public void setup() {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
     public void render() {
         System.out.println(this.params);
         

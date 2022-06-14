@@ -14,14 +14,11 @@ public class Clientes extends Frame {
     }
 
     @Override
-    public void setup() {
+    public void render() {
         options.add("1. Cadastrar cliente");
         options.add("2. Listar clientes");
         options.add("3. Voltar");
-    }
-
-    @Override
-    public void render() {
+        
         for (String option : options) {
             System.out.println(option);
         }

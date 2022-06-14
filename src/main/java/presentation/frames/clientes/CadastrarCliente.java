@@ -14,14 +14,11 @@ public class CadastrarCliente extends Frame {
     }
 
     @Override
-    public void setup() {
+    public void render() {
         options.add("1. Cadastrar cliente PF");
         options.add("2. Cadastrar cliente PJ");
         options.add("3. Voltar");
-    }
-
-    @Override
-    public void render() {
+        
         for (String option : options) {
             System.out.println(option);
         }

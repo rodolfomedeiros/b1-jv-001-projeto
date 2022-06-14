@@ -14,15 +14,12 @@ public class Contas extends Frame {
     }
 
     @Override
-    public void setup() {
+    public void render() {
         options.add("1. Abrir conta");
         options.add("2. Listar contas");
         options.add("3. Acessar conta");
         options.add("4. Voltar");
-    }
-
-    @Override
-    public void render() {
+        
         for (String option : options) {
             System.out.println(option);
         }

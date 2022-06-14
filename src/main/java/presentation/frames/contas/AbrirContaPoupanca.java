@@ -10,12 +10,6 @@ public class AbrirContaPoupanca extends Frame {
     }
 
     @Override
-    public void setup() {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
     public void render() {
         // TODO Auto-generated method stub
         

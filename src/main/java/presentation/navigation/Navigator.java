@@ -19,7 +19,6 @@ public class Navigator {
             Class<Frame> frameClass = entry.get().getValue();
             
             Frame frame = frameClass.getConstructor(String.class, Navigator.class).newInstance(key, this);
-            frame.setup();
             frameStack.clear();
             frameStack.push(frame);
         } catch (Exception e) {
@@ -43,7 +42,6 @@ public class Navigator {
 
                 Frame frameInstance = frameClass.getConstructor(String.class, Navigator.class).newInstance(key, this);
                 
-                frameInstance.setup();
                 frameStack.push(frameInstance);
             } catch(Exception e) {
                 e.printStackTrace();
@@ -64,7 +62,6 @@ public class Navigator {
                     .getConstructor(String.class, Navigator.class, HashMap.class)
                     .newInstance(key, this, params);
     
-                frameInstance.setup();
                 frameStack.push(frameInstance);
             } catch(Exception e) {
                 e.printStackTrace();

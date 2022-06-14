@@ -28,6 +28,5 @@ public abstract class Frame {
         return params;
     }
 
-    public abstract void setup();
     public abstract void render() throws Exception;
 }

@@ -8,12 +8,6 @@ public class ListarContas extends Frame {
     public ListarContas(String key, Navigator navigator) {
         super(key, navigator);
     }
-    
-    @Override
-    public void setup() {
-        // TODO Auto-generated method stub
-        
-    }
 
     @Override
     public void render() {

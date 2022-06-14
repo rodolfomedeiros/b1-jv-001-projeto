@@ -12,12 +12,6 @@ public class CadastrarClientePF extends Frame {
     }
 
     @Override
-    public void setup() {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
     public void render() {
         System.out.println("-- CADASTRAR CLIENTE PJ --");
         System.out.println();

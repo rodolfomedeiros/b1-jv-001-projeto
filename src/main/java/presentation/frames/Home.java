@@ -14,14 +14,11 @@ public class Home extends Frame {
     }
 
     @Override
-    public void setup() {
+    public void render() throws Exception {
         options.add("1. Clientes");
         options.add("2. Contas");
         options.add("3. Encerrar");
-    }
-
-    @Override
-    public void render() throws Exception {
+        
         for (String option : options) {
             System.out.println(option);
         }
