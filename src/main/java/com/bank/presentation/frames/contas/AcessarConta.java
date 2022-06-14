@@ -2,9 +2,8 @@ package com.bank.presentation.frames.contas;
 
 import java.util.HashMap;
 
-import com.bank.models.Cliente;
-import com.bank.models.ContaCorrente;
-import com.bank.models.PessoaFisica;
+import com.bank.data.RepositorioContas;
+import com.bank.models.Conta;
 import com.bank.presentation.navigation.Frame;
 import com.bank.presentation.navigation.Navigator;
 
@@ -16,7 +15,7 @@ public class AcessarConta extends Frame {
     }
 
     @Override
-    public void render() {
+    public void render() throws Exception {
         printFrameTitle("ACESSAR CONTA");
         System.out.print("Digite o código da conta (deixe vazio para voltar): ");
 
@@ -27,11 +26,11 @@ public class AcessarConta extends Frame {
             return;
         }
 
-        // TODO: implementar o lógica de acesso à conta
+        Conta conta = RepositorioContas.getInstancia().obterContaPorCodigo(codigoConta);
 
-        // Conta de teste
-        Cliente cliente = new PessoaFisica("fulano", "123.456.789-00");
-        ContaCorrente conta = new ContaCorrente(cliente);
+        if(conta == null) {
+            throw new Exception("Conta não encontrada!!");
+        }
 
         // cria hash map para armazenar parametros de um frame
         HashMap<String, Object> params = new HashMap<>();

@@ -1,9 +1,9 @@
 package com.bank.presentation.frames.contas;
 
+import java.util.List;
+
 import com.bank.data.RepositorioContas;
-import com.bank.models.ContaCorrente;
-import com.bank.models.ContaInvestimento;
-import com.bank.models.ContaPoupanca;
+import com.bank.models.Conta;
 import com.bank.presentation.navigation.Frame;
 import com.bank.presentation.navigation.Navigator;
 
@@ -16,22 +16,14 @@ public class ListarContas extends Frame {
     @Override
     public void render() {
         printFrameTitle("LISTAR CONTAS");
+        
+        List<Conta> contas = RepositorioContas.getInstancia().listarContas();
 
-        StringBuilder str = new StringBuilder();
-        RepositorioContas.getInstancia().listarContas().stream().forEach(conta -> {
-            if(conta instanceof ContaPoupanca){
-                str.append("Conta Poupança: ");
-            } else if (conta instanceof ContaCorrente){
-                str.append("Conta Corrente: ");
-            }else if (conta instanceof ContaInvestimento){
-                str.append("Conta Investimento: ");
-            }
-
-            str.append("UUID");
-            str.append(conta.getId());
-            str.append(" ");
-            str.append("Saldo: ");
-            str.append(conta.getSaldo());
+        contas.forEach(conta -> {
+            System.out.println("-----------------------------------------");
+            System.out.println("-- Cliente: " + conta.getCliente().getNome());
+            System.out.println("-- Código da conta: " + conta.getCodigo());
+            System.out.println("-----------------------------------------");
         });
 
         System.out.println("Aperte ENTER para continuar...");

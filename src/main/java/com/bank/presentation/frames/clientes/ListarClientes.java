@@ -53,6 +53,4 @@ public class ListarClientes extends Frame {
         System.out.println("CNPJ: "+pessoaJuridica.getCnpj());
         System.out.println("-------------------------");
     }
-
-
 }
