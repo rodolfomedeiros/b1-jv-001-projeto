@@ -1,9 +1,11 @@
 package br.bb;
 
+import data.Entity;
+
 import java.time.LocalDate;
 import java.util.Date;
 
-public abstract class Cliente {
+public abstract class Cliente extends Entity {
     private String nome;
     private LocalDate createdAt;
 

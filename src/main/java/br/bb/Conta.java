@@ -1,6 +1,8 @@
 package br.bb;
 
-public abstract class Conta {
+import data.Entity;
+
+public abstract class Conta extends Entity {
     // Implementar:
     // Sacar - PJ tem taxa de 0,5% por saque
     // Tranferir - PJ tem taxa de 0,5% por
