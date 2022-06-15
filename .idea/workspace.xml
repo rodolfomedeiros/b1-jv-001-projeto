@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5d5b06b6-ab1c-4970-a767-92a6a13f2a98" name="Changes" comment="refactor: organiza diretórios.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/AbrirContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/ListarContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/ListarContas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/models/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/models/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/models/PessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/Transferir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/presentation/frames/contas/Transferir.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

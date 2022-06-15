@@ -39,7 +39,7 @@ public abstract class Conta extends Entity {
 
     public void transferir(Conta contaDestino, double valor) throws IllegalArgumentException {
         if (contaDestino != null) {
-            sacar(valor);
+            this.sacar(valor);
             contaDestino.depositar(valor);
         } else {
             throw new IllegalArgumentException("Conta de destino inválida!");

@@ -2,6 +2,7 @@ package com.bank.presentation.frames.contas;
 
 import java.util.HashMap;
 
+import com.bank.data.RepositorioContas;
 import com.bank.models.Conta;
 import com.bank.presentation.navigation.Frame;
 import com.bank.presentation.navigation.Navigator;
@@ -28,7 +29,9 @@ public class Transferir extends Frame {
         System.out.println("Digite o código da conta destino: ");
         codigoContaDestino = scanner.nextLine();
 
-        // TODO: implementar o lógica de transferência
+        Conta contaDestino = RepositorioContas.getInstancia().obterContaPorCodigo(codigoContaDestino);
+
+        conta.transferir(contaDestino, valor);
 
         System.out.println("Transferência realizada com sucesso!");
         System.out.println("Aperte ENTER para continuar...");
