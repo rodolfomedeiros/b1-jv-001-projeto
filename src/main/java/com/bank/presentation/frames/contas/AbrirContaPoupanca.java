@@ -31,6 +31,8 @@ public class AbrirContaPoupanca extends Frame {
 
         RepositorioContas.getInstancia().salvar(conta);
 
+        System.out.println("Codigo da conta: " + conta.getCodigo());
+
         System.out.println("Conta poupança aberta com sucesso!");
         System.out.println("Aperte ENTER para continuar...");
 

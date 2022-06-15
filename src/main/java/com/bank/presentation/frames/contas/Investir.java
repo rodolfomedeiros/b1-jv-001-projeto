@@ -3,6 +3,7 @@ package com.bank.presentation.frames.contas;
 import java.util.HashMap;
 
 import com.bank.models.Conta;
+import com.bank.models.ContaInvestimento;
 import com.bank.presentation.navigation.Frame;
 import com.bank.presentation.navigation.Navigator;
 
@@ -15,16 +16,22 @@ public class Investir extends Frame {
 
     @Override
     public void render() throws Exception {
-        printFrameTitle("SACAR");
+        printFrameTitle("INVESTIR");
 
         // Acessa a conta recebida como parâmetro no frame "Acessar Conta"
         Conta conta = (Conta)params.get("conta");
 
-        System.out.print("Digite o valor a ser investido: ");
-        valor = scanner.nextDouble();
-        scanner.nextLine();
+        System.out.println("SALDO ANTERIOR: "+conta.getSaldo());
 
-        // TODO: implementar o lógica de investimento
+        if(!conta.isContaInvestimento()){
+            throw new Exception("Sua conta não é de investimento!");
+         }
+
+        ContaInvestimento contaInvestimento = (ContaInvestimento)conta;
+
+        contaInvestimento.rende();
+
+        System.out.println("SALDO ATUAL: "+conta.getSaldo());
         
         System.out.println("Investimento realizado com sucesso!");
         System.out.println("Aperte ENTER para continuar...");

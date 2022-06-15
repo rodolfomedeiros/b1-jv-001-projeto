@@ -6,5 +6,6 @@ public class ContaPoupanca extends ContaComRendimento {
 
     public ContaPoupanca(Cliente cliente){
         super(cliente, RENDIMENTO);
+        this.tipo = TipoConta.CONTA_POUPANCA;
     }
 }
