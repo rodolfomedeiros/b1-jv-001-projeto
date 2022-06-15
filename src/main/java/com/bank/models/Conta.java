@@ -11,10 +11,26 @@ public abstract class Conta extends Entity {
     protected Cliente cliente;
     protected double saldo;
 
+    protected TipoConta tipo;
+
     public Conta(Cliente cliente) {
         this.cliente = cliente;
         this.saldo = 0;
         this.codigo = CodigoConta.getInstancia().getProximoCodigo();
+    }
+
+    public Boolean isContaComRendimento(){return this.tipo == TipoConta.CONTA_RENDIMENTO; }
+
+    public Boolean isContaPoupanca(){
+        return this.tipo == TipoConta.CONTA_POUPANCA;
+    }
+
+    public Boolean isContaCorrente(){
+        return this.tipo == TipoConta.CONTA_CORRENTE;
+    }
+
+    public Boolean isContaInvestimento(){
+        return this.tipo == TipoConta.CONTA_INVESTIMENTO;
     }
 
     public void sacar(double valor) throws IllegalArgumentException {
@@ -45,8 +61,6 @@ public abstract class Conta extends Entity {
             throw new IllegalArgumentException("Conta de destino inválida!");
         }
     }
-
-    public void rende(){}
 
     public double getSaldo() {
         return this.saldo;

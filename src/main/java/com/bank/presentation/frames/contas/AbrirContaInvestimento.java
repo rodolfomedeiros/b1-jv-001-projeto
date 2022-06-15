@@ -59,6 +59,9 @@ public class AbrirContaInvestimento extends Frame {
         Conta conta = new ContaInvestimento(cliente);
 
         RepositorioContas.getInstancia().salvar(conta);
+
+        System.out.println("Codigo da conta: " + conta.getCodigo());
+
     }
 
     private void abrirContaCorrenteParaPessoaJuridica() throws Exception {
@@ -75,5 +78,8 @@ public class AbrirContaInvestimento extends Frame {
         Conta conta = new ContaInvestimento(cliente);
 
         RepositorioContas.getInstancia().salvar(conta);
+
+        System.out.println("Codigo da conta: " + conta.getCodigo());
+
     }
 }

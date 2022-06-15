@@ -7,9 +7,10 @@ public class ContaComRendimento extends Conta{
     public ContaComRendimento(Cliente cliente, double rendimento){
         super(cliente);
         this.taxaRendimento = rendimento;
+        this.tipo = TipoConta.CONTA_RENDIMENTO;
     }
 
-    @Override
+
     public void rende(){
         setSaldo(getSaldo() * taxaRendimento);
     };

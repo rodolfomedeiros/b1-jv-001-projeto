@@ -10,6 +10,7 @@ public class ContaInvestimento extends ContaComRendimento{
 
     public ContaInvestimento(Cliente cliente){
         super(cliente, RENDIMENTO);
+        this.tipo = TipoConta.CONTA_INVESTIMENTO;
     }
 
     @Override
