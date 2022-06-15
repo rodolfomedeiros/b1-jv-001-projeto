@@ -8,8 +8,6 @@ import com.bank.presentation.navigation.Frame;
 import com.bank.presentation.navigation.Navigator;
 
 public class Investir extends Frame {
-    private Double valor;
-
     public Investir(String key, Navigator navigator, HashMap<String, Object> params) {
         super(key, navigator, params);
     }
